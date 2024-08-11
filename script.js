@@ -14,7 +14,7 @@ const MS = 100;
 function preloadImages() {
     for (let i = 0; i < 52; i++) {
         const img = new Image();
-        img.src = `front-${i}.png`;
+        img.src = `img/front-${i}.png`;
         cardImages.push(img);
     }
 }
